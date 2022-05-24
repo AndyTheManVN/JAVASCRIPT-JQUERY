@@ -20,3 +20,9 @@ $("a").attr("href","https://www.bing.com")
   $("h1").mouseover(function(e){
     $("h1").css("color","red");
   });
+
+//   ADD ELEMENT
+$("img").after("<button>Button before</button>");
+
+// REMOVE ELEMENT
+$("button").remove()

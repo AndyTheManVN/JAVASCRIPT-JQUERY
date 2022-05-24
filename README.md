@@ -24,4 +24,15 @@ JQUERY
 			Recommend: $("tag").click(function(){})
 			Cách dùng thay thế: $("tag").on("JS-event", function{})
 			JS-event: use javascript event.
+	
+	4. ADD/REMOVE ELEMENT:
+		a. Add element:
+			- $("img").before("<button>Button before</button>");
+			- .after
+			- .prepend
+			- .append
+		b. Remove element:
+			- .remove() 
+
+
 
