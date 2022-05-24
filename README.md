@@ -2,6 +2,8 @@
 
 JQUERY
 
+	Note: phân biệt chữ Hoa, chữ thường
+
 	1. Library giống như bootstrap dùng cho CSS, dùng viết gọn câu lệnh query javascript.
 	
 	2. ADD CDN LINK:
@@ -38,7 +40,8 @@ JQUERY
 		- HIDE/SHOW - TOGGLE()/fadtoggle()
 		- Slideup 
 		- Slidedown
-		- Slidetoggle()
+		- SlideToggle(): $("h1").slideToggle();
+		- animate()
 
 
 

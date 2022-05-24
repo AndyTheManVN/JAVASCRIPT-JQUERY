@@ -3,7 +3,6 @@ $("h1").css("color","green")
 
 // Hmtl text - content manipulate
 $("h1").html("Goodbye")
-$("button").text("JQuery")
 
 // Manipulate element attribute
 $("a").attr("href","https://www.bing.com")
@@ -31,9 +30,14 @@ $("a").remove()
 $("#btn1").click(function(){
     $("img").toggle();
     $("#btnbefore").remove();
-    $("h1").slidetoggle();
 });
 
 $(".btn2").click(function(){
-    $("h1").slidetoggle();
+  $("h1").slideToggle();
 });
+
+$(".btn3").click(function(){
+  $("p").slideUp().slideDown().animate({opacity:0.5});
+});
+
+
