@@ -22,7 +22,7 @@ $("a").attr("href","https://www.bing.com")
   });
 
 //   ADD ELEMENT
-$("img").after("<button>Button before</button>");
+$("img").after("<button id='btnbefore'>Button before</button>");
 
 // REMOVE ELEMENT
 $("a").remove()
@@ -30,4 +30,5 @@ $("a").remove()
 //ANIMATION
 $("button").click(function(){
     $("img").toggle();
+    $("#btnbefore").remove();
 });
