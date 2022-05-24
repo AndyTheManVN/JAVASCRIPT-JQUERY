@@ -3,6 +3,7 @@
 JQUERY
 
 	1. Library giống như bootstrap dùng cho CSS, dùng viết gọn câu lệnh query javascript.
+	
 	2. ADD CDN LINK:
 		– Google CDN: 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
