@@ -28,7 +28,12 @@ $("img").after("<button id='btnbefore'>Button before</button>");
 $("a").remove()
 
 //ANIMATION
-$("button").click(function(){
+$("#btn1").click(function(){
     $("img").toggle();
     $("#btnbefore").remove();
+    $("h1").slidetoggle();
+});
+
+$(".btn2").click(function(){
+    $("h1").slidetoggle();
 });

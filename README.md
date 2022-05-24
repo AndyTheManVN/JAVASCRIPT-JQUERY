@@ -35,7 +35,10 @@ JQUERY
 			- .remove() 
 
 	5. ANIMATION:
-		- HIDE/SHOW - TOGGLE()
+		- HIDE/SHOW - TOGGLE()/fadtoggle()
+		- Slideup 
+		- Slidedown
+		- Slidetoggle()
 
 
 
