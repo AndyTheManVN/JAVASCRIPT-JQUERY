@@ -21,4 +21,7 @@ JQUERY
 			$("img").attr("src")
 			$("img").attr("src", "images/new.png")
 		e. EventListener
+			Recommend: $("tag").click(function(){})
+			Cách dùng thay thế: $("tag").on("JS-event", function{})
+			JS-event: use javascript event.
 

@@ -16,3 +16,7 @@ $("a").attr("href","https://www.bing.com")
   $("h1").click(function(e){
     $("h1").text("k");
   });
+
+  $("h1").mouseover(function(e){
+    $("h1").css("color","red");
+  });
