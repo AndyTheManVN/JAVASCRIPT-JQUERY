@@ -34,5 +34,8 @@ JQUERY
 		b. Remove element:
 			- .remove() 
 
+	5. ANIMATION:
+		- HIDE/SHOW - TOGGLE()
+
 
 

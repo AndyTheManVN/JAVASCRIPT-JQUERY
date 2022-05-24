@@ -25,4 +25,9 @@ $("a").attr("href","https://www.bing.com")
 $("img").after("<button>Button before</button>");
 
 // REMOVE ELEMENT
-$("button").remove()
+$("a").remove()
+
+//ANIMATION
+$("button").click(function(){
+    $("img").toggle();
+});
