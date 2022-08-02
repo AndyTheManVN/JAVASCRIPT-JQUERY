@@ -23,13 +23,11 @@
 		```
 		$("img").attr("src") 
 		$("img").attr("src", "images/new.png") 
-		```
+		```<br>
 	- EventListener: <br>
-		```
 		Recommend: **$("TAG-NAME").click(function(){})** <br>
 		Cách dùng thay thế: $("tag").on("JS-event", function{}) <br>
 		JS-event: use javascript event. <br>
-		```
 
 >4. ADD/REMOVE ELEMENT: <br>
 	- Add element: <br>
