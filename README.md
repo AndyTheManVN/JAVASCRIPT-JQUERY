@@ -21,8 +21,8 @@
 		``` <br>
 	- Manipulate attribute: <br>
 		```
-		$("img").attr("src") <br>
-		$("img").attr("src", "images/new.png") <br>
+		$("img").attr("src") 
+		$("img").attr("src", "images/new.png") 
 		```
 	- EventListener: <br>
 		```
