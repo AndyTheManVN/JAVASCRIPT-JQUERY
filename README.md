@@ -5,49 +5,49 @@
 
 >1. Library giống như bootstrap dùng cho CSS, dùng viết gọn câu lệnh query javascript.
 
->2. ADD CDN LINK:
+>2. ADD CDN LINK: <br>
 	– Google CDN: ```<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>``` <br>
-	– https://developers.google.com/speed/libraries#jquery
+	– https://developers.google.com/speed/libraries#jquery  <br>
 
->3. MANIPULATE WITH JQUERY SYNTAX:
-	- Query element/node hmtl: 
-		```$("h1")```
-	- Manipulate css: 
-		```$("h1").css("color","green")```
-	- Manipulate content:
+>3. MANIPULATE WITH JQUERY SYNTAX:  <br>
+	- Query element/node hmtl:  <br>
+		```$("h1")``` <br>
+	- Manipulate css:  <br>
+		```$("h1").css("color","green")``` <br>
+	- Manipulate content: <br>
 		```
 		$("h1").text("change text")
 		$("h1").html("change text html")
+		``` <br>
+	- Manipulate attribute: <br>
 		```
-	- Manipulate attribute:
+		$("img").attr("src") <br>
+		$("img").attr("src", "images/new.png") <br>
 		```
-		$("img").attr("src")
-		$("img").attr("src", "images/new.png")
+	- EventListener: <br>
 		```
-	- EventListener:
-		```
-		Recommend: **$("TAG-NAME").click(function(){})**
-		Cách dùng thay thế: $("tag").on("JS-event", function{})
-		JS-event: use javascript event.
+		Recommend: **$("TAG-NAME").click(function(){})** <br>
+		Cách dùng thay thế: $("tag").on("JS-event", function{}) <br>
+		JS-event: use javascript event. <br>
 		```
 
->4. ADD/REMOVE ELEMENT:
-	- Add element:
+>4. ADD/REMOVE ELEMENT: <br>
+	- Add element: <br>
 		```
 		- $("img").before("<button>Button before</button>");
 		          .after
 		          .prepend
 		          .append
-		```
-	- Remove element:
-		```.remove()``` 
+		``` <br>
+	- Remove element: <br>
+		```.remove()```  <br>
 
->5. ANIMATION:
-	- HIDE/SHOW - TOGGLE()/fadtoggle()
-	- Slideup 
-	- Slidedown
-	- SlideToggle(): $("h1").slideToggle();
-	- animate()
+>5. ANIMATION: <br>
+	- HIDE/SHOW - TOGGLE()/fadtoggle() <br>
+	- Slideup  <br>
+	- Slidedown <br>
+	- SlideToggle(): $("h1").slideToggle(); <br>
+	- animate() <br>
 
 
 
